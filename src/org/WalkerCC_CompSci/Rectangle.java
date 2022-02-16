@@ -10,6 +10,7 @@ public class Rectangle {
         this.width = width;
     }
 
+
     public double getLength(){
         return this.length;
     }
@@ -26,8 +27,8 @@ public class Rectangle {
         this.width = width;
     }
 
-    public double Area(){
-        //What goes here?
+   public double Area(){
+         return length * width;
     }
 
 }
